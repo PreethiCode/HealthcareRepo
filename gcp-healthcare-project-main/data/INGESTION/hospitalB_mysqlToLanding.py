@@ -12,7 +12,7 @@ bq_client = bigquery.Client()
 spark = SparkSession.builder.appName("HospitalAMySQLToLanding").getOrCreate()
 
 # Google Cloud Storage (GCS) Configuration
-GCS_BUCKET = "healthcare-bucket-22032025"
+GCS_BUCKET = "healthcare-bucket-05-2026"
 HOSPITAL_NAME = "hospital-b"
 LANDING_PATH = f"gs://{GCS_BUCKET}/landing/{HOSPITAL_NAME}/"
 ARCHIVE_PATH = f"gs://{GCS_BUCKET}/landing/{HOSPITAL_NAME}/archive/"
@@ -29,7 +29,7 @@ MYSQL_CONFIG = {
     "url": "jdbc:mysql://34.59.188.6:3306/hospital_b_db?useSSL=false&allowPublicKeyRetrieval=true",
     "driver": "com.mysql.cj.jdbc.Driver",
     "user": "myuser",
-    "password": "mypass"
+    "password": "Sql@1234"
 }
 
 ##------------------------------------------------------------------------------------------------------------------##
