@@ -11,7 +11,7 @@ from airflow.providers.google.cloud.operators.dataproc import (
 
 # define the variables
 PROJECT_ID = "propane-girder-470214-h9"
-REGION = "us-east1"
+REGION = "us-central1-a"
 CLUSTER_NAME = "my-demo-cluster"
 COMPOSER_BUCKET = "us-central1-demo-instance-cfdedb84-bucket" ## change this 
 
